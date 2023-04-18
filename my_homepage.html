@@ -1,4 +1,4 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -7,10 +7,18 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Slot Machine</title>
-        <meta name="Slot Machine" content="">
+        <title>Welcome Home</title>
+        <meta name="" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles_slots.css">
+        <script>
+            function windowClose()
+            {
+                if (confirm ("Goodbye Mr. Buchanan.")){
+                    window.close();
+                }
+            }
+        </script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -24,9 +32,9 @@
         <div class="container_2">
             <div class="choices">
         <h2> What would you like to do today?<h2>
-        <button class="option">Account</button>
-        <button class="option">Calender</button>
-        <button class="option">Have a nice day!</button>
+        <button class="option"> <a href="login.html">Account</a></button>
+        <button class="option"><a href="login.html">Calender</a></button>
+        <button class="option" onclick="window.close()">Have a nice day!</button>
             </div>
         </div>
         
