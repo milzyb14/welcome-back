@@ -1,0 +1,53 @@
+
+
+
+/* this section is for the my_homepage.html page */
+
+.container_1{  /* container for .container_2, .choices, .options, .buttons on */ 
+    display:flex; /* creates flex items */
+    font-size: 40px; /* changes font size to 40 px */
+    text-align: center; /* aligns text to center for all browsers */
+    padding: 200px 50px 100px 50px; /* top right bottom left */
+    flex-direction: row; /*  flex-direction determine the direction of the main axis of  flex container */
+    justify-content: center; /* justify-content aligns the items along the horizontal(main) axis */
+    align-items: center; /* align-items aligns along the vertical (cross) axis. */
+}
+
+.container_2{ /* holds .choices, buttons, .options */ 
+    text-align: center; /* aligns text to center for all browsers */ 
+}
+
+.choices{ /* holds the title and buttons */ 
+    display: flex; /*  creates flex items */ 
+    font-size: 30px; /* obvious */ 
+    flex-direction: column; /* flex-direction aligns the items horizontally */ 
+    justify-content: center; /* centers horizontally  */ 
+    align-items: center; /* */ 
+
+}
+button{ /* the buttons */ 
+    font-size: 20px;
+
+}
+.option{ /* holds account, calender, and have a nice day */
+    text-align: center;
+    background-color: gold;
+    padding: 25px;
+    margin: 30px;
+    color: black;
+}
+
+.h2{ /* the options text */
+    color: white;
+}
+
+body{ /* the whole document */ 
+    background-color: black;
+    color: white;
+}
+
+
+
+
+/* this section is for the login.html page */
+
